@@ -1,15 +1,17 @@
 
 h1{
-    color: black    ;
+    color: #ca3e39;  
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: black;
     font-size: 70px;
     text-align: center;
-    background-color: grey;
     margin-top: 0;
     width: 50%;
     margin:auto;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-
 }
+/* bron: https://kinsta.com/blog/css-text-outline/ */
+
 h2{
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -25,6 +27,7 @@ nav ul li a{
     color: black;
     
 }
+
 
 nav ul{
     list-style-type: none;
